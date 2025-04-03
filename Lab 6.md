@@ -118,7 +118,7 @@ Your switch must be configured to the following criteria:
 
 ### Router 
 
-Your router will be preconfigured with a default installation of OPNsense. You will need to configure it to match the network diagram. In this case, your WAN IP address will be 172.16.0.<Team number>/24. The upstream gateway for the WAN interface will be 172.16.0.10. 
+Your router will be preconfigured with a default installation of OPNsense. You will need to configure it to match the network diagram. In this case, your WAN IP address will be `172.16.0.<Team number>/24`. The upstream gateway for the WAN interface will be 172.16.0.10. 
 
 You will need to set up each VLAN with its own interface, name, subnet, and gateway. The values are:
 
